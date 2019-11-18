@@ -1,0 +1,34 @@
+Convolution: On a given image when a filter convolves(passes) around the side covering all its surface, this process is called as Convolution. In convolution array, of numbers are multiplied. We multiply two numbers to derive the third set of numbers. 
+
+For example: In a image of 6*6 convolutional operation means the filter of 3*3 slides through all over the image.
+
+Fun-Fact: Its belived through Imagenet challenges, the acceptance of convolution/Convolution neural network begun.
+
+
+Filters/Kernels:
+A filter slides through a image within a image. Filters are of different sizes. Size of the filter depends on size the image Out of a filter is a feature map.
+Use: A filter helps you extract feautres like patterns, edges, part of object etc.
+Example: Different size of filters are 3x3, 5x5, 7x7 etc. Most preffered filter size is 3x3.
+Filters are also reffered to as Kernels/3x3 matrix,Filter etc.
+
+
+
+Epochs: Once when you go through your entire dataset, its called as 1 Epoch. Epoch is one round around the given datasets. 
+Sizes: Epochs are of different sizes. Mostly used batch_size are 32,64,128. Batch sizes are used as per situation.
+
+
+1x1 Convolution: 1x1 convolution is used by many CNN's today. 1x1 convolution help reduce the dimensionality. It connects all the input value to output values.
+Many of the neural network is using 1x1 convolutions now a days.
+
+
+3x3 Convolution: 3x3 is a almost considered as standard filter. This filter of all the filters has been able to give us a productive result. A grayscale image will be 3x3x1.
+
+Feature Maps: A filter is always applied for extracting features. Once the filter convolves, resulting values are called as feature map. 
+Its an output of a filter.
+
+Activation Function: Activation function helps in maintaining the non-linearity in the neural network. It is used in between our code. After couple of convolutional network we can call a activation function. Relu is the most preferred activation function.
+
+Receptive Field: A part in the neural network which reacts or which repsonds to the filter is called as receptive field. 
+
+
+
